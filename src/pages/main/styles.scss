@@ -1,0 +1,10 @@
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 100vh;
+    background: url('~@images/firstLayer.png') right top no-repeat,
+    url('~@images/secondLayer.png') center left no-repeat,
+    url('~@images/thirdLayer.png') right bottom no-repeat,
+    linear-gradient(121.12deg, #132F34 23.62%, #011114 92.81%);
+}
